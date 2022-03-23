@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tareita</title>
+</head>
+
+<body>
+    <h1>Feedback de producto - Productos de limpieza</h1>
+    <form action="/" method="post">
+        Ingrese su email: <br>
+        <input type="text" id="email" name="email" placeholder="mail@ejemplo.com"><br><br>
+        Elija el producto que usted consumió: <br> <br>
+        <input type="radio" name="producto" id="producto" value="1">Detergente <br>
+        <input type="radio" name="producto" id="producto" value="2">Jabón de manos <br>
+        <input type="radio" name="producto" id="producto" value="3">Limpiavidrios <br>
+        <input type="radio" name="producto" id="producto" value="4">Otro (especifique en comentario) <br>
+        <br>
+        Ingrese la fecha en cual adquirió el producto: <br>
+        <input type="date" name="fechaadq" id="fechaadq" min="2000-01-01" max="2022-03-23"><br><br>
+        Cuál es su nivel de satisfacción con el producto?<br>
+        <select name="satisf" id="satisf">
+            <option value="">Seleccione...</option>
+            <option value="1">Muy bajo</option>
+            <option value="2">Bajo</option>
+            <option value="3">Regular</option>
+            <option value="4">Bueno</option>
+            <option value="5">Muy bueno</option>
+        </select><br><br>
+        Escriba un comentario al respecto: <br>
+        <textarea name="comentario" id="comentario" cols="40" rows="10" style="resize: none;"></textarea><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar campos</button>
+    </form>
+</body>
+
+</html>

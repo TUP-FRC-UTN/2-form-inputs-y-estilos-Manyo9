@@ -1,0 +1,36 @@
+p {
+    font-size: 16px;
+    color: rgb(128, 128, 128);
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.parrafo-negrita {
+    font-weight: bold;
+}
+
+#elparrafo {
+    background-color: cadetblue;
+    color: white;
+}
+
+p+span {
+    background-color: red;
+    font-size: large;
+}
+
+p>span>b {
+    background-color: green;
+}
+
+* {
+    background-color: black;
+    color: white;
+}

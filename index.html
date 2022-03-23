@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+
+<body>
+    <form action="/" method="post"></form>
+    Nombre: <br>
+    <input type="text" placeholder="Ingese su nombre" name="nombre"><br>
+    Apellido: <br>
+    <input type="text" placeholder="Ingrese su apellido" name="apellido"><br><br>
+    Seleccione genero: <br>
+    <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+    <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+    <input type="radio" name="genero" id="genero" value="3"> Otro <br>
+    <br>
+
+    Intereses: <br>
+    <input type="checkbox" name="intereses" id="intereses"> Peliculas <br>
+    <input type="checkbox" name="intereses" id="intereses"> Series <br>
+    <input type="checkbox" name="intereses" id="intereses"> Deportes <br>
+    <input type="checkbox" name="intereses" id="intereses" checked> Otros <br><br><br>
+
+
+    <input type="date" name="fnac" id="fnac" min="2022-03-22" max="2022-03-25">
+    <br>
+    <br>
+
+    <select name="provincia" id="provincia">
+        <option value="">Seleccione...</option>
+        <option value="1">Córdoba</option>
+        <option value="2">Buenos Aires</option>
+    </select><br><br>
+
+    <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba un comentario..."
+        style="resize: none;"></textarea>
+    <br><br>
+    <!-- Comentario -->
+    Ingrese un numero:
+    <input type="number" name="numero" id="number">
+    <br><br>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpiar campos</button>
+</body>
+
+</html>
